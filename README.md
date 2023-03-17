@@ -1,3 +1,20 @@
-# backend_community_homework
+# yatube_project
+«Социальная сеть блогеров»
+### Описание
+Этот проект - платформа для блогеров, на которой можно делиться своими идеями, мыслями и опытом. Платформа позволяет  создавать личный блог, заходить на чужие страницы, подписываться на авторов и комментировать их записи.
 
-[![CI](https://github.com/yandex-praktikum/hw02_community/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/yandex-praktikum/hw02_community/actions/workflows/python-app.yml)
+### Технологии
+Python 3.11.2
+Django 2.2.19
+### Запуск проекта в dev-режиме
+- Установите и активируйте виртуальное окружение
+- Установите зависимости из файла requirements.txt
+```
+pip install -r requirements.txt
+``` 
+- В папке с файлом manage.py выполните команду:
+```
+python3 manage.py runserver
+```
+### Авторы
+Кудряшов Илья
