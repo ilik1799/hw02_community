@@ -29,8 +29,8 @@ class Post(models.Model):
         Group,
         blank=True,
         null=True,
-        on_delete=models.CASCADE,
-        related_name='group',
+        on_delete=models.SET_NULL,
+        related_name='posts',
         verbose_name='Группа'
     )
 
